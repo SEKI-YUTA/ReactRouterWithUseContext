@@ -15,6 +15,7 @@ function FirstPage({ userContext, setUserDataState }) {
                 }}
             />
             <p>{JSON.stringify(userData)}</p>
+            {/* リンクから画面を移動させたい時はLinkを使う */}
             <Link to="/second">second pageへ</Link>
         </div>
     );
